@@ -1,29 +1,32 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nicol\\source\\repos\\Morpion 2\\",
+  "WorkspaceRootPath": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|c:\\users\\nicol\\source\\repos\\morpion 2\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{800BC4E8-5960-435A-8F1A-F39EB50F7D13}|..\\Morpion2TestUnit\\Morpion2TestUnit.csproj|c:\\users\\nicol\\source\\repos\\m2i\\morpion2testunit\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|c:\\users\\nicol\\source\\repos\\m2i\\morpion 2\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|solutionrelative:board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|c:\\users\\nicol\\source\\repos\\morpion 2\\playermoves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|c:\\users\\nicol\\source\\repos\\m2i\\morpion 2\\playermoves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|solutionrelative:playermoves.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|c:\\users\\nicol\\source\\repos\\morpion 2\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|c:\\users\\nicol\\source\\repos\\m2i\\morpion 2\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|c:\\users\\nicol\\source\\repos\\morpion 2\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|c:\\users\\nicol\\source\\repos\\m2i\\morpion 2\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|c:\\users\\nicol\\source\\repos\\morpion 2\\cell 1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|c:\\users\\nicol\\source\\repos\\m2i\\morpion 2\\cell 1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|solutionrelative:cell 1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|c:\\users\\nicol\\source\\repos\\morpion 2\\program 1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|c:\\users\\nicol\\source\\repos\\m2i\\morpion 2\\program 1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1A7E328-448D-474A-BACF-EF743115F7A0}|Morpion 2.csproj|solutionrelative:program 1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -43,10 +46,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion2TestUnit\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\Morpion2TestUnit\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion2TestUnit\\UnitTest1.cs",
+              "RelativeToolTip": "..\\Morpion2TestUnit\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T10:04:40.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Board.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\source\\repos\\Morpion 2\\Board.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\Board.cs",
               "RelativeDocumentMoniker": "Board.cs",
-              "ToolTip": "C:\\Users\\nicol\\source\\repos\\Morpion 2\\Board.cs",
+              "ToolTip": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\Board.cs",
               "RelativeToolTip": "Board.cs",
               "ViewState": "AgIAADoAAAAAAAAAAAAswEUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,11 +71,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Cell 1.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\source\\repos\\Morpion 2\\Cell 1.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\Cell 1.cs",
               "RelativeDocumentMoniker": "Cell 1.cs",
-              "ToolTip": "C:\\Users\\nicol\\source\\repos\\Morpion 2\\Cell 1.cs",
+              "ToolTip": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\Cell 1.cs",
               "RelativeToolTip": "Cell 1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -67,11 +83,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Game.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\source\\repos\\Morpion 2\\Game.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\Game.cs",
               "RelativeDocumentMoniker": "Game.cs",
-              "ToolTip": "C:\\Users\\nicol\\source\\repos\\Morpion 2\\Game.cs",
+              "ToolTip": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\Game.cs",
               "RelativeToolTip": "Game.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -79,11 +95,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\source\\repos\\Morpion 2\\Player.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\Player.cs",
               "RelativeDocumentMoniker": "Player.cs",
-              "ToolTip": "C:\\Users\\nicol\\source\\repos\\Morpion 2\\Player.cs",
+              "ToolTip": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\Player.cs",
               "RelativeToolTip": "Player.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAYwCIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -91,11 +107,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerMoves.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\source\\repos\\Morpion 2\\PlayerMoves.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\PlayerMoves.cs",
               "RelativeDocumentMoniker": "PlayerMoves.cs",
-              "ToolTip": "C:\\Users\\nicol\\source\\repos\\Morpion 2\\PlayerMoves.cs",
+              "ToolTip": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\PlayerMoves.cs",
               "RelativeToolTip": "PlayerMoves.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -103,11 +119,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program 1.cs",
-              "DocumentMoniker": "C:\\Users\\nicol\\source\\repos\\Morpion 2\\Program 1.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\Program 1.cs",
               "RelativeDocumentMoniker": "Program 1.cs",
-              "ToolTip": "C:\\Users\\nicol\\source\\repos\\Morpion 2\\Program 1.cs",
+              "ToolTip": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\Program 1.cs",
               "RelativeToolTip": "Program 1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

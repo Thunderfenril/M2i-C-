@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nicol\\source\\repos\\Morpion 2\\Morpion 2.csproj",
+      "projectUniqueName": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\Morpion 2.csproj",
       "projectName": "Morpion 2",
-      "projectPath": "C:\\Users\\nicol\\source\\repos\\Morpion 2\\Morpion 2.csproj",
+      "projectPath": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\Morpion 2.csproj",
       "packagesPath": "C:\\Users\\nicol\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nicol\\source\\repos\\Morpion 2\\obj\\",
+      "outputPath": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

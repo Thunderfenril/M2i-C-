@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WSo2h9kRh8I=",
+  "dgSpecHash": "gduO8RTnFr0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicol\\source\\repos\\Morpion 2\\Morpion 2.csproj",
+  "projectFilePath": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\Morpion 2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nicol\\.nuget\\packages\\csharpfunctionalextensions\\3.2.0\\csharpfunctionalextensions.3.2.0.nupkg.sha512"
   ],
