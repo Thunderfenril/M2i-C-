@@ -3,5 +3,12 @@
 public record PlayerMove(int Row, int Column)
 {
     public static PlayerMove Random
-        => new PlayerMove(System.Random.Shared.Next(1, 4), System.Random.Shared.Next(1, 4));
+    {
+        get
+        {
+            var row = System.Random.Shared.Next(1, 4);
+            var col = System.Random.Shared.Next(1, 4);
+            return new PlayerMove(row, col);
+        }
+    }
 }
