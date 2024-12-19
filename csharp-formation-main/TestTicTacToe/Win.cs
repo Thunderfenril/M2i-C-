@@ -47,10 +47,10 @@ namespace TestTicTacToe
             board.PlayMoveOnBoard(new PlayerMove(1, 2), 'X');
 
             //Act
-            Maybe<string> resultIntermediaire = board.IsGameOver(player);
+            Maybe<string> resultInTheMiddleOfTheGame = board.IsGameOver(player);
 
             //Assert
-            resultIntermediaire.HasNoValue.Should().BeTrue();
+            resultInTheMiddleOfTheGame.HasNoValue.Should().BeTrue();
         }
 
         [Fact]
