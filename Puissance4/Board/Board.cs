@@ -41,8 +41,8 @@ namespace Puissance4.Board
         private Cell GetCell(int col)
         {
             Cell desiredCell = grid
-                .Where((cell) => cell.Row == col)
-                .Where((cellRow) => cellRow.Column == 1)
+                .Where((cell) => cell.Column == col)
+                .Where((cellRow) => cellRow.Row == 6)
                 .First();
 
             return desiredCell;
