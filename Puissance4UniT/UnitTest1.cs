@@ -1,13 +1,20 @@
-﻿namespace Puissance4UniT
+﻿using FluentAssertions;
+using Puissance4.Board;
+
+namespace Puissance4UniT
 {
     public class UnitTest1
     {
         [Fact]
-        public void Test1()
+        public void Initialisation_Success()
         {
-            var test = true;
+            //Agence
 
-            Assert.True(test);
+            //Act
+            Board board = new Board();
+
+            //Assert
+            board.Should().NotBeNull();
         }
     }
 }
