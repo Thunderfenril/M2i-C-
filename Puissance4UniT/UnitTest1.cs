@@ -56,7 +56,7 @@ namespace Puissance4UniT
             // Agence
             Board board = new Board();
             // Act
-            bool result = board.PlayerMove(1, 1, 'X');
+            bool result = board.PlayerMove(1, 'X');
 
             // Assert
             result.Should().BeTrue();
