@@ -20,12 +20,34 @@ namespace Puissance4UniT
         [Fact]
         public void Initialisation_GridWith42Place() {
             //Agence
-            Board board = new Board();
+
             //Act
-            board.InitializeGrid();
+            Board board = new Board();
 
             //Assert
-            board.Grid.Count.Should().Be(42);
+            board.grid.Count.Should().Be(42);
+        }
+
+        [Fact]
+        public void Initialisation_Grid6On7()
+        {
+            // Agence
+
+            // Act
+            Board board = new Board();
+
+            // Assert
+            board.grid.
+                Where((cell) => cell.Row == 1)
+                .Should()
+                .NotBeEmpty()
+                .And.HaveCount(7);
+
+            board.grid.
+                Where((cell) => cell.Column == 1)
+                .Should()
+                .NotBeEmpty()
+                .And.HaveCount(6);
         }
     }
 }
