@@ -84,8 +84,8 @@ namespace Puissance4UniT
             board.PlayerMove(1, 'O');
 
             // Act
-            char player1 = board.GetCellContent(1, 1);
-            char player2 = board.GetCellContent(2, 1);
+            char? player1 = board.GetCellContent(1, 1);
+            char? player2 = board.GetCellContent(2, 1);
 
             // Assert
 
@@ -127,6 +127,25 @@ namespace Puissance4UniT
             // Assert
             result.Should().BeFalse();
         }
+
+        [Fact]
+        public void GameVictory_4InColumn_ReturnTrue()
+        {
+            // Arrange
+            Board board = new Board();
+            for(int i = 1; i < 5; i++)
+            {
+                board.PlayerMove(1, 'X');
+            }
+
+            // Act
+            bool result = board.checkVictory();
+
+            // Assert
+            result.Should().BeTrue();
+        }
+
+        
 
     }
 }

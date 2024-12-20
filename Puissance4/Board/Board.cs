@@ -67,6 +67,18 @@ namespace Puissance4.Board
 
         public bool checkVictory()
         {
+            IEnumerable<IGrouping<int, Cell>> cols = grid
+            .GroupBy(cell => cell.Column);
+
+            if(cols.Any(
+                column =>
+                column.Count(cell => cell.Value == 'X') == 4 ||
+                column.Count(cell => cell.Value == 'O') == 4
+             ))
+            {
+                return true;
+            }
+
             return false;
         }
     }
