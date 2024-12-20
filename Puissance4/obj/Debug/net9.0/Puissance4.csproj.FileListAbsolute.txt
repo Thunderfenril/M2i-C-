@@ -13,3 +13,17 @@ C:\Users\nicol\source\repos\M2i\Puissance4\obj\Debug\net9.0\refint\Puissance4.dl
 C:\Users\nicol\source\repos\M2i\Puissance4\obj\Debug\net9.0\Puissance4.pdb
 C:\Users\nicol\source\repos\M2i\Puissance4\obj\Debug\net9.0\Puissance4.genruntimeconfig.cache
 C:\Users\nicol\source\repos\M2i\Puissance4\obj\Debug\net9.0\ref\Puissance4.dll
+C:\Users\nicol\source\repos\M2i\Puissance4\bin\Debug\net9.0\FluentAssertions.dll
+C:\Users\nicol\source\repos\M2i\Puissance4\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nicol\source\repos\M2i\Puissance4\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\nicol\source\repos\M2i\Puissance4\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\nicol\source\repos\M2i\Puissance4\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nicol\source\repos\M2i\Puissance4\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\nicol\source\repos\M2i\Puissance4\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\nicol\source\repos\M2i\Puissance4\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\nicol\source\repos\M2i\Puissance4\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\nicol\source\repos\M2i\Puissance4\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\nicol\source\repos\M2i\Puissance4\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\nicol\source\repos\M2i\Puissance4\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\nicol\source\repos\M2i\Puissance4\obj\Debug\net9.0\Puissance4.csproj.AssemblyReference.cache
+C:\Users\nicol\source\repos\M2i\Puissance4\obj\Debug\net9.0\Puissance4.csproj.Up2Date
