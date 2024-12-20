@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puissance4", "Puissance4.csproj", "{B98B8EA7-CF57-4CD5-B1DF-AF023FF4F0C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Puissance4UniT", "..\Puissance4UniT\Puissance4UniT.csproj", "{03883251-AB78-4A05-B960-C1FA2C753F56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B98B8EA7-CF57-4CD5-B1DF-AF023FF4F0C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B98B8EA7-CF57-4CD5-B1DF-AF023FF4F0C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B98B8EA7-CF57-4CD5-B1DF-AF023FF4F0C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B98B8EA7-CF57-4CD5-B1DF-AF023FF4F0C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03883251-AB78-4A05-B960-C1FA2C753F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03883251-AB78-4A05-B960-C1FA2C753F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03883251-AB78-4A05-B960-C1FA2C753F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03883251-AB78-4A05-B960-C1FA2C753F56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
