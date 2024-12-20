@@ -31,6 +31,10 @@ namespace Puissance4.Board
 
         public bool PlayerMove(int col, char playerSymbol)
         {
+            if(col < 1 || col > 7) { 
+                return false; 
+            }
+
             Cell cell = GetCell(col);
 
             cell.updateCell(playerSymbol);

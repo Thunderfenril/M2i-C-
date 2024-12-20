@@ -62,6 +62,17 @@ namespace Puissance4UniT
             result.Should().BeTrue();
         }
 
+        [Fact]
+        public void PlayerMove_InvalidMove_ReturnInvalidMove()
+        {
+            // Agence
+            Board board = new Board();
 
+            // Act
+            bool result = board.PlayerMove(666, 'X');
+
+            // Assert
+            result.Should().BeFalse();
+        }
     }
 }
