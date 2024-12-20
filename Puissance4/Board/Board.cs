@@ -28,5 +28,24 @@ namespace Puissance4.Board
 
             return Grid;
         }
+
+        public bool PlayerMove(int row, int col, char playerSymbol)
+        {
+            Cell cell = GetCell(row, col);
+
+            cell.updateCell(playerSymbol);
+
+            return true;
+        }
+
+        private Cell GetCell(int row, int col)
+        {
+            Cell desiredCell = grid
+                .Where((cell) => cell.Row == row)
+                .Where((cellRow) => cellRow.Column == col)
+                .First();
+
+            return desiredCell;
+        }
     }
 }

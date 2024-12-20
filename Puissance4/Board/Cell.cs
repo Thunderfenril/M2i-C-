@@ -18,5 +18,10 @@ namespace Puissance4.Board
             Column = column;
             Value = null;
         }
+
+        public void  updateCell(char? value)
+        {
+            this.Value = value;
+        }
     }
 }
