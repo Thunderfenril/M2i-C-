@@ -74,5 +74,46 @@ namespace Puissance4UniT
             // Assert
             result.Should().BeFalse();
         }
+
+        [Fact]
+        public void PlayerMove_ValidMoveTwoTokenSameColumn_ReturnValidMove()
+        {
+            // Agence
+            Board board = new Board();
+            board.PlayerMove(1, 'X');
+            board.PlayerMove(1, 'O');
+
+            // Act
+            char player1 = board.GetCellContent(1, 1);
+            char player2 = board.GetCellContent(2, 1);
+
+            // Assert
+
+            player1.Should().Be('X');
+            player2.Should().Be('O');
+        }
+
+        [Fact]
+        public void PlayerMove_InFullColumn_ReturnInvalidMove()
+        {
+            // Agence
+            Board board = new Board();
+            bool result = true;
+
+
+            for (int i = 1; i < 7; i++)
+            {
+                char playerSymbol = i % 2 == 0 ? 'X' : 'O';
+                board.PlayerMove(1, playerSymbol);
+            }
+
+            // Act
+
+            result = board.PlayerMove(1, 'O');
+
+            // Assert
+            result.Should().BeFalse();
+        }
+
     }
 }
