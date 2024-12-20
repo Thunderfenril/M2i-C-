@@ -16,5 +16,16 @@ namespace Puissance4UniT
             //Assert
             board.Should().NotBeNull();
         }
+
+        [Fact]
+        public void Initialisation_GridWith42Place() {
+            //Agence
+            Board board = new Board();
+            //Act
+            board.InitializeGrid();
+
+            //Assert
+            board.Grid.Count.Should().Be(42);
+        }
     }
 }

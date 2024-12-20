@@ -9,9 +9,17 @@ namespace Puissance4.Board
     
     public class Board
     {
-        private List<char> Grid;
+        public List<char> Grid { get; }
         public Board() { 
             Grid = new List<char>();
+        }
+
+        public void InitializeGrid()
+        {
+            for (int i = 0; i < 42; i++)
+            {
+                Grid.Add('\0');
+            }
         }
     }
 }
