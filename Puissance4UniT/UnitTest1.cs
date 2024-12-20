@@ -8,7 +8,7 @@ namespace Puissance4UniT
         [Fact]
         public void Initialisation_Success()
         {
-            //Agence
+            //Arrange
 
             //Act
             Board board = new Board();
@@ -19,7 +19,7 @@ namespace Puissance4UniT
 
         [Fact]
         public void Initialisation_GridWith42Place() {
-            //Agence
+            //Arrange
 
             //Act
             Board board = new Board();
@@ -31,7 +31,7 @@ namespace Puissance4UniT
         [Fact]
         public void Initialisation_Grid6On7()
         {
-            // Agence
+            // Arrange
 
             // Act
             Board board = new Board();
@@ -53,7 +53,7 @@ namespace Puissance4UniT
         [Fact]
         public void PlayerMove_ValidMove_ReturnValidMove()
         {
-            // Agence
+            // Arrange
             Board board = new Board();
             // Act
             bool result = board.PlayerMove(1, 'X');
@@ -65,7 +65,7 @@ namespace Puissance4UniT
         [Fact]
         public void PlayerMove_InvalidMove_ReturnInvalidMove()
         {
-            // Agence
+            // Arrange
             Board board = new Board();
 
             // Act
@@ -78,7 +78,7 @@ namespace Puissance4UniT
         [Fact]
         public void PlayerMove_ValidMoveTwoTokenSameColumn_ReturnValidMove()
         {
-            // Agence
+            // Arrange
             Board board = new Board();
             board.PlayerMove(1, 'X');
             board.PlayerMove(1, 'O');
@@ -96,7 +96,7 @@ namespace Puissance4UniT
         [Fact]
         public void PlayerMove_InFullColumn_ReturnInvalidMove()
         {
-            // Agence
+            // Arrange
             Board board = new Board();
             bool result = true;
 
@@ -110,6 +110,19 @@ namespace Puissance4UniT
             // Act
 
             result = board.PlayerMove(1, 'O');
+
+            // Assert
+            result.Should().BeFalse();
+        }
+
+        [Fact]
+        public void GameVictory_EmptyGrid_ReturnFalse()
+        {
+            // Arrange
+            Board board = new Board();
+
+            // Act
+            bool result = board.checkVictory();
 
             // Assert
             result.Should().BeFalse();

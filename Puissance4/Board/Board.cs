@@ -55,14 +55,19 @@ namespace Puissance4.Board
                 .FirstOrDefault(); ;
         }
 
-        public char GetCellContent(int row, int col)
+        public char? GetCellContent(int row, int col)
         {
             Cell desiredCell = grid
                 .Where((cell) => cell.Column == col)
                 .Where((cellRow) => cellRow.Row == row)
                 .First();
 
-            return (char)desiredCell.Value;
+            return desiredCell.Value;
+        }
+
+        public bool checkVictory()
+        {
+            return false;
         }
     }
 }
