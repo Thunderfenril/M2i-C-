@@ -145,7 +145,23 @@ namespace Puissance4UniT
             result.Should().BeTrue();
         }
 
-        
+        [Fact]
+        public void GameVictory_4InColumnSeparatedByPlayFromTheOtherPlayer_ReturnFalse()
+        {
+            // Arrange
+            Board board = new Board();
+            for (int i = 1; i <= 5; i++)
+            {
+                char playerSymbol = i != 3 ? 'X' : 'O';
+                board.PlayerMove(1, playerSymbol);
+            }
+
+            // Act
+            bool result = board.checkVictory();
+
+            // Assert
+            result.Should().BeFalse();
+        }
 
     }
 }
