@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:RGBMAUI"
+             x:Class="RGBMAUI.MainPage"
+             Appearing="OnAppearing">
+
+    <StackLayout Margin="20">
+        <Label Text="CollectionView"
+               FontSize="50"
+               FontAttributes="Bold"
+               HorizontalOptions="Center" />
+
+        <CollectionView ItemsSource="{Binding NamedColors}"
+                        ItemsLayout="VerticalGrid, 3">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="35" />
+                            <RowDefinition Height="35" />
+                            <RowDefinition Height="35" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70" />
+                            <ColumnDefinition Width="80" />
+                        </Grid.ColumnDefinitions>
+                        <Rectangle Grid.RowSpan="2"
+                                   HeightRequest="60" 
+                                    WidthRequest="60"
+                                   >
+                            <Rectangle.Fill>
+                                <SolidColorBrush Color="{Binding Name}" />
+                            </Rectangle.Fill>
+                        </Rectangle>
+                        <Label Grid.Column="1" 
+                               Text="{Binding Name}" 
+                               FontAttributes="Bold"
+                               LineBreakMode="TailTruncation" />
+                        <Button
+                            Command="{Binding Path=DeleteCommand, Source={RelativeSource AncestorType={x:Type local:MainPage}}}"
+                            CommandParameter="{Binding .}"
+                            Text="Delete"
+                            Grid.Row="1"
+                            Grid.Column="1" />
+
+                        <Button 
+                            Text="{Binding Name}"
+                            Grid.Column="1"
+                            Grid.Row="2"
+                            Clicked="GetRGB" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Text="Add Color"
+                Command="{Binding AddCommand}"
+                HorizontalOptions="Center" />
+    </StackLayout>
+
+</ContentPage>
