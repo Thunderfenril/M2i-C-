@@ -1,24 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Connect4"
              x:Class="Connect4.MainPage">
 
     <StackLayout>
-        <Grid
-            RowSpacing="1"
-            ColumnSpacing="1"
-            RowDefinitions="*, *, *, *, *, *"
-            ColumnDefinitions="*, *, *, *, *, *, *">
-            <CollectionView ItemsSource="{Binding Cell}">
+
+            <CollectionView ItemsSource="{Binding Cells}" ItemsLayout="VerticalGrid, 7">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
-                        <Button Text="{Binding Content}" />
+                    <Button Text="{Binding Content}"                             
+                            BackgroundColor="{Binding Color}" 
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type local:MainPageVM}}, Path=CellClickedCommand}" 
+                            CommandParameter="{Binding .}" />
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
-        </Grid>
+        <Label Text="{Binding GameOverMessage}" FontSize="Large" HorizontalOptions="Center" IsVisible="{Binding IsGameOver}" />
 
-        
     </StackLayout>
 
 </ContentPage>
