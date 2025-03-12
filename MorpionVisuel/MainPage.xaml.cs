@@ -2,7 +2,8 @@
 {
     public partial class MainPage : ContentPage
     {
-        int counter = 0;
+        private int counter = 0;
+
         public MainPage()
         {
             InitializeComponent();
@@ -14,8 +15,7 @@
             var row = Grid.GetRow(button);
             var column = Grid.GetColumn(button);
             var texte = button.Text;
-            System.Diagnostics.Debug.WriteLine("Ligne: " + row +"\nColonne: " + column + "\nTexte :" + texte);
-
+            System.Diagnostics.Debug.WriteLine("Ligne: " + row + "\nColonne: " + column + "\nTexte :" + texte);
 
             if (texte == "O" || texte == "X")
             {
@@ -26,5 +26,4 @@
             counter++;
         }
     }
-
 }

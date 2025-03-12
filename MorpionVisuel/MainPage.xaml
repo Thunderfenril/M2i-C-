@@ -8,8 +8,7 @@
             RowSpacing="0"
             ColumnSpacing="0"
             RowDefinitions="*,*,*"
-            ColumnDefinitions="*, *, *"
-            >
+            ColumnDefinitions="*, *, *">
 
             <Button
                 Clicked="OnCounterClicked"
@@ -49,5 +48,4 @@
                 Grid.Column="2" />
         </Grid>
     </ScrollView>
-
 </ContentPage>
