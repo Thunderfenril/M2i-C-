@@ -13,7 +13,7 @@
 
         <CollectionView ItemsSource="{Binding NamedColors}"
                         ItemsLayout="VerticalGrid, 3">
-            <CollectionView.ItemTemplate>
+            <CollectionView.ItemTemplate x:Datatype="local:NamedColor">
                 <DataTemplate>
                     <Grid Padding="10">
                         <Grid.RowDefinitions>

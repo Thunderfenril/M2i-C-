@@ -8,6 +8,6 @@ namespace RGBMAUI
 
         abstract void DeleteColor(NamedColor color);
 
-        abstract IList<NamedColor> GetColors();
+        abstract Task<IList<NamedColor>> GetColors();
     }
 }

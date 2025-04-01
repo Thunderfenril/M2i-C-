@@ -37,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,6 +46,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -66,7 +70,7 @@
               "RelativeDocumentMoniker": "Board.cs",
               "ToolTip": "C:\\Users\\nicol\\source\\repos\\M2i\\Morpion 2\\Board.cs",
               "RelativeToolTip": "Board.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAA/wEoAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAswEoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T15:07:40.882Z",
               "EditorCaption": ""
@@ -81,8 +85,7 @@
               "RelativeToolTip": "Cell 1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T15:07:40.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-16T15:07:40.085Z"
             },
             {
               "$type": "Document",

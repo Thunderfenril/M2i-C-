@@ -32,6 +32,11 @@ namespace RGBMAUI
             return NamedColors;
         }
 
+        Task<IList<NamedColor>> IColorsRepository.GetColors()
+        {
+            throw new NotImplementedException();
+        }
+
         public FakeColorRepository()
         {
             NamedColors = new List<NamedColor>();

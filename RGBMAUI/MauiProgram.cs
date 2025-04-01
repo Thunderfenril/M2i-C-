@@ -4,6 +4,8 @@ namespace RGBMAUI
 {
     public static class MauiProgram
     {
+
+        
         public static MauiApp CreateMauiApp()
         {
             var builder = MauiApp.CreateBuilder();
@@ -14,7 +16,10 @@ namespace RGBMAUI
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
-            builder.Services.AddSingleton<IColorsRepository, FakeColorRepository>();
+
+            builder.Services.AddSingleton<Database>();
+            builder.Services.AddSingleton<IColorsRepository, ColorsRepository>();
+            //builder.Services.AddSingleton<IColorsRepository, FakeColorRepository>();
 
 #if DEBUG
             builder.Logging.AddDebug();

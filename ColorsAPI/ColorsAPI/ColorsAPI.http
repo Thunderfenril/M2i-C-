@@ -1,0 +1,6 @@
+@ColorsAPI_HostAddress = https://localhost:32771
+
+GET {{ColorsAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

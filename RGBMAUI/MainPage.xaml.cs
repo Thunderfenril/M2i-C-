@@ -7,7 +7,7 @@ namespace RGBMAUI
     {
         private readonly IColorsRepository repository;
 
-        public ObservableCollection<NamedColor> NamedColors { get; private set; }
+        public ObservableCollection<NamedColor> NamedColors { get; private set; } = new ObservableCollection<NamedColor>();
         public ICommand DeleteCommand { get; private set; }
         public ICommand AddCommand { get; private set; }
 
@@ -18,7 +18,6 @@ namespace RGBMAUI
             AddCommand = new Command<NamedColor>(AddColor);
             BindingContext = this;
             this.repository = repository;
-            CreateNamedColorCollection();
         }
 
         private void DeleteColor(NamedColor color)
@@ -28,26 +27,22 @@ namespace RGBMAUI
         }
 
         private void AddColor(NamedColor color) {
+            Random r = new Random();
+            const string chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            var name = new string(Enumerable.Repeat(chars, 10)
+                .Select(s => s[r.Next(s.Length)]).ToArray());
+            var rouge = r.Next(0, 255);
+            var vert = r.Next(0, 255);
+            var bleu = r.Next(0, 255);
             var test = new NamedColor
             {
-                Name = "Gray",
-                Red = 173,
-                Green = 173,
-                Blue = 173
+                Name = name,
+                Red = rouge,
+                Green = vert,
+                Blue = bleu,
             };
             NamedColors.Add(test);
             repository.AddColor(test);
-        }
-
-        void CreateNamedColorCollection()
-        {
-            NamedColors = new ObservableCollection<NamedColor>();
-            var temp = repository.GetColors();
-            foreach (var item in temp)
-            {
-                var tempItem = new NamedColor(item.Name, item.Red, item.Green, item.Blue);
-                NamedColors.Add(tempItem);
-            }
         }
 
         public async void GetRGB(object sender, EventArgs e)
@@ -62,9 +57,10 @@ namespace RGBMAUI
             await Navigation.PushAsync(new Detail(button.Text, valueRed, valueGreen, valueBlue));
         }
 
-        private void OnAppearing(object sender, EventArgs e)
+        private async void OnAppearing(object sender, EventArgs e)
         {
-            var temp = repository.GetColors();
+            NamedColors.Clear();
+            var temp = await repository.GetColors();
             foreach (var item in temp)
             {
                 NamedColors.Add(item);

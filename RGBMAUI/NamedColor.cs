@@ -8,7 +8,7 @@ using System.Xml.Linq;
 
 namespace RGBMAUI
 {
-    public class NamedColor
+    public class NamedColor : INotifyPropertyChanged
     {
         Color _color;
         string _name;
@@ -29,9 +29,6 @@ namespace RGBMAUI
                 if (_color != value)
                 {
                     _color = value;
-                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Hue"));
-                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Saturation"));
-                    PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Luminosity"));
                     PropertyChanged?.Invoke(this, new PropertyChangedEventArgs("Color"));
                 }
             }
