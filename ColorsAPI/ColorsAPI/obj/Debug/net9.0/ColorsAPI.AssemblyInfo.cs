@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ColorsAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78971d8dc0fe08f674aba67392a95cbf18a5fff1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71f469ab265d08c323b49ccea923e10674053ef3")]
 [assembly: System.Reflection.AssemblyProductAttribute("ColorsAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ColorsAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

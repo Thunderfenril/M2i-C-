@@ -1,13 +1,20 @@
-﻿namespace ColorsAPI.Model;
+﻿using System.Drawing;
+
+namespace ColorsAPI.Model;
 
 public record ColorDto(ColorType Type, int Red, int Green, int Blue)
 {
-    public static ColorDto FromColor(ColorType, ColorType color)
+    public static ColorDto FromColor(ColorType type, Color color)
+    {
+        return new ColorDto(type, color.R, color.G, color.B);
+    }
 }
 
 public enum ColorType
 {
     Primary,
     Secondary,
-    Tertiary
+    Tertiary,
+    Accent,
+    Neutral
 }

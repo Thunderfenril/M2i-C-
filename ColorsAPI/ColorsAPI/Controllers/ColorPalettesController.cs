@@ -16,17 +16,23 @@ public class ColorPalettesController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<CollectionResponse<ColorPalette>>> GetColorPalette()
+    public async Task<ActionResult<CollectionResponse<ColorPaletteDto>>> GetColorPalette()
     {
         await Task.CompletedTask;
 
-        var randomPalettes = new CollectionResponse<ColorPalette>
+        var randomPalettes = new CollectionResponse<ColorPaletteDto>
         {
-            Items = new List<ColorPalette>
+            Items = new List<ColorPaletteDto>
             {
-                ColorPalette.RandomPalette()
+                ColorPaletteDto.RandomPalette(),
+                ColorPaletteDto.RandomPalette(),
+                ColorPaletteDto.RandomPalette(),
+                ColorPaletteDto.RandomPalette(),
+                ColorPaletteDto.RandomPalette(),
+                ColorPaletteDto.RandomPalette(),
+                ColorPaletteDto.RandomPalette()
             }
-        }
+        };
 
 
         return Ok(randomPalettes);
