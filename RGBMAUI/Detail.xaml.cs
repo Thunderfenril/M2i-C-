@@ -18,10 +18,10 @@ public partial class Detail : ContentPage
 			text,
 			valueRed.ToString(),
 			valueGreen.ToString(),
-            valueBlue.ToString()
+			valueBlue.ToString()
 
-        );
-        BindingContext = viewModel;
+		);
+		BindingContext = viewModel;
 		System.Diagnostics.Debug.WriteLine("(" + valueRed + ", " + valueGreen + ", " + valueBlue + ")");
 	}
 

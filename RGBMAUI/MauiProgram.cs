@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using RGBMAUI.Services;
+using RGBMAUI.ViewModel;
 
 namespace RGBMAUI
 {
@@ -20,6 +22,9 @@ namespace RGBMAUI
             builder.Services.AddSingleton<Database>();
             builder.Services.AddSingleton<IColorsRepository, ColorsRepository>();
             //builder.Services.AddSingleton<IColorsRepository, FakeColorRepository>();
+
+            builder.Services.ConfigureColorsApi();
+            builder.Services.AddTransient<ColorPalettesVM>();
 
 #if DEBUG
             builder.Logging.AddDebug();
